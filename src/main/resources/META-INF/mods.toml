@@ -4,7 +4,7 @@ license="MIT"
 [[mods]]
     modId="voltutils"
     license="MIT License"
-    version="1.0-1.16.5"
+    version="1.0"
     displayName="Voltwork: Utils"
     issueTrackerURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
     #displayURL="nourlyet"
@@ -29,11 +29,5 @@ license="MIT"
     modId="mekanism"
     mandatory=true
     versionRange="[1.16.4-10.0.18.445,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.superpackutils]]
-    modId="eidolon"
-    mandatory=true
-    versionRange="[0.2.7,)"
     ordering="NONE"
     side="BOTH"
