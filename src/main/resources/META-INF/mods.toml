@@ -1,28 +1,39 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="MIT License"
-issueTrackerURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
-modId="voltutils"
-version="1.0-1.16.5"
-displayName="Voltwork: Utils"
-#displayURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
-logoFile="logo.png"
-credits="Jerome226, minemobs."
-authors="Modded MC Studios"
-description='''
-A custom mod for the Voltwork modpack.
-'''
+license="MIT"
+[[mods]]
+    modId="voltutils"
+    license="MIT License"
+    version="1.0-1.16.5"
+    displayName="Voltwork: Utils"
+    issueTrackerURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
+    #displayURL="nourlyet"
+    logoFile="logo.png"
+    authors="Modded MC Studios"
+    credits="Jerome226, minemobs, Unhooking."
+    description='''A mod for the Voltwork modpack.'''
 
-[[dependencies.forge]]
+[[dependencies.superpackutils]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[35,)"
     ordering="NONE"
     side="BOTH"
-
-[[dependencies.minecraft]]
+[[dependencies.superpackutils]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.superpackutils]]
+    modId="mekanism"
+    mandatory=true
+    versionRange="[1.16.4-10.0.18.445,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.superpackutils]]
+    modId="eidolon"
+    mandatory=true
+    versionRange="[0.2.7,)"
     ordering="NONE"
     side="BOTH"
