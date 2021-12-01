@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+issueTrackerURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
+modId="voltutils"
+version="1.0-1.16.5"
+displayName="Voltwork: Utils"
+#displayURL="https://github.com/ModdedMCStudios/VoltworkUtils/issues"
+logoFile="logo.png"
+credits="Jerome226, minemobs."
+authors="Modded MC Studios"
+description='''
+A custom mod for the Voltwork modpack.
+'''
+
+[[dependencies.forge]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.minecraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
