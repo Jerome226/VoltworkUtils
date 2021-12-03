@@ -30,7 +30,7 @@ public class Main
 
         public static class ModItemGroup extends ItemGroup {
 
-            public static final ModItemGroup instance = new ModItemGroup(ItemGroup.TABS.length, "superpackutils");
+            public static final ModItemGroup instance = new ModItemGroup(ItemGroup.TABS.length, "voltutils");
 
             public ModItemGroup(int index, String label) {
                 super(index, label);
